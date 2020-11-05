@@ -1,0 +1,43 @@
+.bgSvg {
+    img {
+        position: absolute;
+        right: 75%;
+        top: 75%;
+        z-index: -1;
+    }
+}
+
+.box-main {
+    display: flex;
+    align-items: center;
+
+    .box {
+        width: 270px;
+        height: 366px;
+    }
+
+    .left {
+        background-color: #fdc14e;
+        -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .06);
+        -moz-box-shadow: 0 0 15px rgba(0, 0, 0, .06);
+        box-shadow: 0 0 15px rgba(0, 0, 0, .06);
+        margin-right: 30px;
+    }
+
+    .right-box {
+        .up {
+            background-color: #6dcff6;
+            -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .06);
+            -moz-box-shadow: 0 0 15px rgba(0, 0, 0, .06);
+            box-shadow: 0 0 15px rgba(0, 0, 0, .06);
+            margin-bottom: 30px;
+        }
+
+        .down {
+            background-color: #fc4370;
+            -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .06);
+            -moz-box-shadow: 0 0 15px rgba(0, 0, 0, .06);
+            box-shadow: 0 0 15px rgba(0, 0, 0, .06);
+        }
+    }
+}
